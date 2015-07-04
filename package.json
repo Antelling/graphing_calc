@@ -1,10 +1,11 @@
 {
   "name": "graphing_calc",
+  "version": "1.0.0",
   "author": "anthony",
   "dependencies": {
     "express": "^4.13.0"
   },
   "scripts": {
-    "start": "node server.js"
+    "start": "node ./server.js"
   }
 }
