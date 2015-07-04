@@ -1,0 +1,10 @@
+{
+  "name": "graphing_calc",
+  "author": "anthony",
+  "dependencies": {
+    "express": "^4.13.0"
+  },
+  "scripts": {
+    "start": "node server.js"
+  }
+}
