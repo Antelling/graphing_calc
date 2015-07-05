@@ -14,8 +14,8 @@ module.exports = function() {
 
   var server = app.listen(3000, function () {
 
-    var host = server.address().address;
-    var port = server.address().port;
+    var host = process.env.IP;
+    var port = process.env.PORT || 8000;
 
     console.log('Example app listening at http://%s:%s', host, port);
 
