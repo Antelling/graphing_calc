@@ -1,7 +1,11 @@
 #!/usr/bin/env node
 "use strict";
 
+console.log("server started");
+
 require("./server/server.js")();
+
+
 
 
 var net = require('net');
