@@ -1,0 +1,78 @@
+.fullscreen{
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100vh;
+}
+
+.fullscreen #graphingCalc {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  background-color: rgba(0,0,0,0);
+}
+
+.fullscreen #homeOutput {
+  border: 0;
+  margin: 0;
+  padding: 20px;
+  border-radius: 0;
+  width: 50vw;
+  height: 75vh;
+}
+
+.fullscreen #homeInput {
+  position: absolute;
+  bottom: 53px;
+  left: 3px;
+  margin: 0;
+}
+
+.fullscreen .btn-group{
+  position: absolute;
+  bottom: 3px;
+  left: 3px;
+  margin: 0;
+}
+
+.fullscreen #graphingMode .btn-group{
+  bottom: 53px;
+  left: 3px;
+}
+
+.fullscreen #graphingEquations {
+  left: 3px;
+  bottom: 103px;
+  position: absolute;
+  margin: 0;
+  z-index: 12;
+}
+
+.fullscreen #graphingEquations .graphingInput{
+  margin: 3px;
+}
+
+.fullscreen #graph {
+  margin: 0;
+  padding: 0;
+  left: 0;
+  top: 0;
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  z-index:-1;
+}
+
+.fullscreen #canvasContainer{
+  margin: 0;
+  padding: 0;
+  border: 0;
+  border-radius: 0;
+}
+
+.fullscreen #graphScriptBox {
+  margin: 0;
+  position: absolute;
+  left: 556px;
+  bottom: 3px;
+}
