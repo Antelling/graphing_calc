@@ -6,18 +6,13 @@ module.exports = function() {
   var express = require("express");
   var app = express();
 
-  app.use(express.static("./static_files"));
+  app.use(express.static("./public"));
 
   app.get('/', function (req, res) {
-    res.sendFile(path.resolve(__dirname, "../static_files/graphingcalc.html"));
+    res.sendFile(path.resolve(__dirname, "../public/graphingcalc.html"));
   });
 
-  var server = app.listen(3000, function () {
-
-    var host = process.env.IP;
-    var port = process.env.PORT || 8000;
-
-    console.log('Example app listening at http://%s:%s', host, port);
-
+  var server = app.listen(process.env.PORT || 8000, function () {
+    console.log("server active")
   });
 };
