@@ -1,4 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="Encoding" useUTFGuessing="true" native2AsciiForPropertiesFiles="false" />
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/public/logic/mathfunctions/core/constants.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/public/logic/mathfunctions/core/lists.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/public/logic/mathfunctions/core/misc.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/public/logic/mathfunctions/ext/helperFunctions.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/public/logic/mathfunctions/ext/notMine.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/server.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/test.js" charset="UTF-8" />
+  </component>
 </project>

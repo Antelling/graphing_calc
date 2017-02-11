@@ -1,1 +1,1 @@
-require('./mathfunctions/extra/extender.js');
+require('./mathfunctions/ext/extender.js');

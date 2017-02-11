@@ -44,8 +44,8 @@ function round(number) {
 }
 
 //CHECKERS
-function is_divisible(n1, n2) {
-  return helper('is_divisible', arguments, 2, function (n1, n2) {
+function isDivisible(n1, n2) {
+  return helper('isDivisible', arguments, 2, function (n1, n2) {
     return n1 % n2 === 0;
   });
 }
@@ -79,7 +79,7 @@ function root(root, val, both) {
       both = true;
     }
 
-    var isRootOdd = !is_divisible(base, 2);
+    var isRootOdd = !isDivisible(base, 2);
 
     if (isRootOdd && val < 0) {
       return bad_nthroot(val, base);

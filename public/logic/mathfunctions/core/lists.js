@@ -1,9 +1,9 @@
-function list_max(list) {
+function listMax(list) {
   return helper('list_max', arguments, 1, function (list) {
     return Math.max.apply(Math, list);
   }, true);
 }
-function list_min(list) {
+function listMin(list) {
   return helper('list_min', arguments, 1, function (list) {
     return Math.min.apply(Math, list);
   }, true);
@@ -21,7 +21,7 @@ function gcf(list) {
     smallest.loop(function (num) {
       var divisible = true;
       list.loop(function (item) {
-        if (!is_divisible(item, num)) {
+        if (!isDivisible(item, num)) {
           divisible = false;
         }
       });
@@ -97,7 +97,7 @@ function range(list) {
     return list_max(list) - list_min(list);
   }, true);
 }
-function avg_diff(list) {
+function std(list) {
   return helper('avg_diff', arguments, 1, function (list) {
     var listMean = mean(list);
     var diffList = [];
